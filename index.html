@@ -1,29 +1,71 @@
 <!DOCTYPE html> 
+<!DOCTYPE html>
 <html>
     <head>
-        <title>Kamsi's gamers lodge</title>
+        <title>Kamsi's Gamers Lodge</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+                background-image: url('https://staticg.sportskeeda.com/editor/2022/01/2e6e2-16433698268741-1920.jpg');
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                min-height: 100vh;
+                margin: 0;
+                font-family: Arial, sans-serif;
+            }
+            .container {
+                background: rgba(0,0,0,0.7);
+                max-width: 400px;
+                margin: 40px auto;
+                padding: 30px;
+                border-radius: 16px;
+                text-align: center;
+                color: #fff;
+                box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+            }
+            .avatar {
+                width: 120px;
+                height: 120px;
+                object-fit: cover;
+                border-radius: 50%;
+                border: 3px solid #fff;
+                margin-bottom: 16px;
+            }
+            .games {
+                display: flex;
+                gap: 16px;
+                justify-content: center;
+                margin-top: 24px;
+            }
+            .games img {
+                width: 90px;
+                height: 60px;
+                object-fit: cover;
+                border-radius: 8px;
+                border: 2px solid #fff;
+            }
+            .username, .desc {
+                color: #ff4444;
+                font-family: 'Times New Roman', Times, serif;
+                font-weight: bold;
+                margin: 0;
+            }
+        </style>
     </head>
     <body>
-    <img src="images/Screenshot 2025-09-27 143447.png" width="120" height="120" style="object-fit: cover; border-radius: 50%;">
-    <img src="images/Screenshot 2025-09-28 155918.png" width="120" height="120" style="object-fit: cover; border-radius: 50%; margin-top: 10px;" alt="Passport Photo">
-    <p style="color: red; font-family: 'Times New Roman', Times, serif; font-weight: bold;">@FrankDeer217</p>
-    <p style="color: red; font-family: 'Times New Roman', Times, serif; font-weight: bold;">I love to Play games</p>
-        <div style="display: flex; gap: 20px; justify-content: center; margin-top: 30px;">
-            <img src="https://staticg.sportskeeda.com/editor/2022/01/2e6e2-16433698268741-1920.jpg" alt="Free Fire" width="150" height="100" style="object-fit: cover; border-radius: 12px;">
-            <img src="https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/mw3/home/mw3-keyart.jpg" alt="Call of Duty" width="150" height="100" style="object-fit: cover; border-radius: 12px;">
-            <img src="https://www.minecraft.net/content/dam/games/minecraft/key-art/Minecraft-2021-Key-Art_1280x768.jpg" alt="Minecraft" width="150" height="100" style="object-fit: cover; border-radius: 12px;">
+        <div class="container">
+            <img src="images/Screenshot 2025-09-28 155918.png" alt="Passport Photo" class="avatar">
+            <p class="username">@FrankDeer217</p>
+            <p class="desc">I love to Play games</p>
+                    <img src="images/freefire.jpg" alt="Free Fire Wallpaper" style="width: 100%; max-width: 350px; border-radius: 12px; margin: 20px 0;">
+            <div class="games">
+                <img src="https://staticg.sportskeeda.com/editor/2022/01/2e6e2-16433698268741-1920.jpg" alt="Free Fire">
+                <img src="https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/mw3/home/mw3-keyart.jpg" alt="Call of Duty">
+                <img src="https://www.minecraft.net/content/dam/games/minecraft/key-art/Minecraft-2021-Key-Art_1280x768.jpg" alt="Minecraft">
+            </div>
         </div>
     </body>
-    <style>
-        body{
-            background-image: url('https://staticg.sportskeeda.com/editor/2022/01/2e6e2-16433698268741-1920.jpg');
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            min-height: 100vh;
-            margin: 0;
-            font-family: Arial, sans-serif;
-        }
-    </style>
 </html>
 
